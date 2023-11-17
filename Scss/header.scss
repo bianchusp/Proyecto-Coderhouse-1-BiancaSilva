@@ -1,3 +1,41 @@
 header{
-    background-color: aqua;
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div header .menu-item a{
+        text-decoration: none;
+        font-size: 20px;
+        color:black;
+        font-weight: 300;
+        padding: 0px 12px;  
+       }
+       
+    img{
+        width: 60px;
+           }
+
+    h1{
+            color: black;
+            font-size: 50px;
+            position: fixed;
+           }
+
+    ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;        
+        }
+    .menu-item a{
+            text-decoration: none;
+            font-size: 20px;
+            color:black;
+            font-weight: 300;
+            padding: 0px 12px;
+    
+        }
+    
 }

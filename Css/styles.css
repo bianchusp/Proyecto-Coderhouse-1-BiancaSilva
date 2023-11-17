@@ -1,6 +1,219 @@
 header {
-  background-color: aqua;
+  width: 100%;
+  padding: 10px 0px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header div header .menu-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+  padding: 0px 12px;
+}
+header img {
+  width: 60px;
+}
+header h1 {
+  color: black;
   font-size: 50px;
+  position: fixed;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+header .menu-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+  padding: 0px 12px;
+}
+
+body {
+  background-image: url("../Imagenes/bienvenida.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bannerBienvenida {
+  background-image: url("../Imagenes/bienvenida.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 400px 4px;
+}
+#bannerBienvenida h1 {
+  font-size: 80px;
+  color: white;
+  margin-bottom: 10px;
+}
+#bannerBienvenida p {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 30px;
+}
+#bannerBienvenida a {
+  transition: all 0.3s ease;
+  background-color: aliceblue;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  padding: 20px 20px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bannerBienvenida a:hover {
+  transition: all 0.3s ease;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  padding: 20px 20px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-imagen {
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-height: 90vh;
+}
+
+.contenedor-imagen {
+  width: 30%;
+  aspect-ratio: 1/1;
+  height: auto;
+  flex-wrap: nowrap;
+  object-fit: cover;
+}
+
+form {
+  background-image: url("../Imagenes/fondo formularios.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  text-align: center;
+  object-fit: cover;
+}
+form h1 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 10px;
+}
+form a {
+  background-color: aliceblue;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 50px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+form a:hover {
+  transition: all 0.3s ease;
+  background-color: aliceblue;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 50px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+form label {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 12px 14px;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+#Titulo {
+  font-size: xx-large;
+  width: 300px;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 600px;
+}
+
+#itemsDesctacados {
+  font-size: xx-large;
+  width: 300px;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 600px;
+}
+
+main div h1 {
+  padding: 50px 50px;
+  text-align: center;
+}
+
+@media (max-width: 375px) {
+  header {
+    height: auto;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedor-imagen {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    height: auto;
+  }
+  main div h1 {
+    padding: 150px 10px 10px;
+    text-align: center;
+  }
+  main div h1 {
+    padding: 100px 50px;
+    text-align: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
 }
 
 /*# sourceMappingURL=styles.css.map */
